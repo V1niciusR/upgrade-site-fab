@@ -55,7 +55,7 @@ body{
 
 
 
-/*===========  NAVBAR NOVA  ===========*/
+/*===========  NAVBAR NOVA  ===========*
 
 #mainNavbar{
   background-color: var(--primaryColor) !important;
@@ -125,13 +125,13 @@ section {
 
 
 
-/*=====   NAVBAR DE INÍCIO  =====*
+/*=====   NAVBAR DE INÍCIO  =====*/
 
 .navbar {
   position: fixed;
   width: 100%;
   padding: 30px 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   z-index: 999;
   transition: all 0.3s ease;
 }
