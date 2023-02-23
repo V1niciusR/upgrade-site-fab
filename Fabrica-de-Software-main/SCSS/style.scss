@@ -141,7 +141,7 @@ section {
 .navbar.scrolled {
   padding-top: 7px;
   padding-bottom: 7px;
-  background-color: white;
+  background-color: var(--c-brand);
   box-shadow: var(--shadow);
 }
 
@@ -162,7 +162,7 @@ section {
 
 .navbar .navbar-nav .nav-link {
   font-weight: 700;
-  color: var(--textColorNav);
+  color: var(--textColor);
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -173,15 +173,16 @@ section {
 .navbar-brand {
   font-size: 24px;
   font-weight: 700;
-  color: var(--textColorNav);
+  color: var(--textColor);
 }
 
-.social-icon {
+.social-icon  {
   width: 36px;
   height: 36px;
   background-color: var(--c-brand);
-  color: white;
+  color: var(--textColor);
   border: 2px solid var(--c-brand);
+  border-radius: 25px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -189,28 +190,8 @@ section {
 }
 
 .social-icon:hover {
-  background-color: transparent;
-}
-
-/* Btn */
-.btn {
-  padding: 10px 24px;
-  border-radius: 0;
-  border-width: 2px;
-  font-weight: 500;
-}
-
-.btn-brand,
-.btn-brand:focus {
-  background-color: var(--c-brand);
-  color: white;
-  border-color: var(--c-brand);
-}
-
-.btn-brand:hover {
-  background-color: transparent;
   color: var(--c-brand);
-  border-color: var(--c-brand);
+  background-color: transparent;
 }
 
 /*===========  /NAVBAR DE INÍCIO  ===========*/
@@ -252,16 +233,33 @@ section {
   color: var(--c-brand);
   font-weight: 500;
 }
-
+/*
 .home .home-content a {
-  display: inline-block;
+  display: inline-flex;
   background: var(--c-brand);
   color: var(--c-light);
   font-size: 15px;
   padding: 6px 16px;
   margin-top: 20px;
-  border-radius: 6px;
+  border-radius: 25px;
   border: 2px solid var(--c-brand);
+  align-items: center;
+  margin-right: 6px;
+}
+*/
+
+.home .home-content a {
+  width: 36px;
+  height: 36px;
+  background-color: var(--c-brand);
+  color: var(--textColor);
+  border: 2px solid var(--c-brand);
+  border-radius: 25px;
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
 }
 
 .home .home-content a:hover {
