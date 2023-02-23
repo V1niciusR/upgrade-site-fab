@@ -129,8 +129,20 @@ section {
   box-shadow: var(--shadow);
 }
 
+.navbar .logo a span {
+  color: var(--c-brand);
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled .logo a span {
+  color: var(--textColor);
+}
+
 .navbar-toggler {
   border-radius: 0;
+  color: var(--c-light);
+  font-size: 26px;
+  cursor: pointer;
 }
 
 .navbar-toggler:focus {
@@ -153,7 +165,7 @@ section {
   color: var(--c-brand);
 }
 
-.navbar-brand {
+.navbar .logo a {
   font-size: 24px;
   font-weight: 700;
   color: var(--textColor);
