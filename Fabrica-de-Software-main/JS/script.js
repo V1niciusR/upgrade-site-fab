@@ -1,18 +1,3 @@
-window.onscroll = function() {
-    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0 ) {
-        document.getElementById('navbar').classList.add('scrolled');
-    } else {
-        document.getElementById('navbar').classList.remove('scrolled');
-    }
-}
-
-// AOS
-AOS.init({
-    duration: 800,
-});
-
-
-
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
