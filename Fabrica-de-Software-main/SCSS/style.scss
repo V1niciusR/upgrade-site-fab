@@ -47,8 +47,12 @@ body{
   --c-dark3: #333;
   --gray: rgba(42, 53, 62, 0.4);
   --textColor: #F2FAFF;
+  --textColorNav: #ff0000;
   --c-light: #fff;
   --c-light2: #ccc;
+  
+  --transition: all .4s cubic-bezier(.165, .84, .44, 1);
+  --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
 }
 
 /*===========  /VARIABLES COLORS  ===========*/
@@ -127,60 +131,86 @@ section {
 
 /*=====   NAVBAR DE INÍCIO  =====*/
 
+/* Navbar */
 .navbar {
-  position: fixed;
-  width: 100%;
-  padding: 30px 0;
-  font-family: 'Open Sans', sans-serif;
-  z-index: 999;
-  transition: all 0.3s ease;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: var(--transition);
 }
 
-.navbar.sticky {
-  background: var(--c-brand);
-  padding: 15px 0;
+.navbar.scrolled {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: white;
+  box-shadow: var(--shadow);
 }
 
-.navbar .max-width {
-  display: flex;
+.navbar-toggler {
+  border-radius: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 16px;
+      padding-left: 16px;
+  }
+}
+
+.navbar .navbar-nav .nav-link {
+  font-weight: 700;
+  color: var(--textColorNav);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active  {
+  color: var(--c-brand);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--textColorNav);
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  background-color: var(--c-brand);
+  color: white;
+  border: 2px solid var(--c-brand);
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-right: 6px;
 }
 
-.navbar .logo a {
-  color: var(--c-light);
-  font-size: 35px;
+.social-icon:hover {
+  background-color: transparent;
+}
+
+/* Btn */
+.btn {
+  padding: 10px 24px;
+  border-radius: 0;
+  border-width: 2px;
   font-weight: 500;
 }
 
-.navbar .logo a span {
+.btn-brand,
+.btn-brand:focus {
+  background-color: var(--c-brand);
+  color: white;
+  border-color: var(--c-brand);
+}
+
+.btn-brand:hover {
+  background-color: transparent;
   color: var(--c-brand);
-  transition: all 0.3s ease;
-}
-
-.navbar.sticky .logo a span {
-  color: var(--c-light);
-}
-
-.navbar .menu li {
-  list-style: none;
-  display: inline-block;
-}
-
-.navbar .menu li a {
-  color: var(--c-light);
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 25px;
-  transition: color 0.3s ease;
-}
-
-.navbar .menu li a:hover {
-  color: var(--c-brand);
-}
-
-.navbar.sticky .menu li a:hover {
-  color: var(--c-light);
+  border-color: var(--c-brand);
 }
 
 /*===========  /NAVBAR DE INÍCIO  ===========*/
