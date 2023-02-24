@@ -89,14 +89,15 @@ section {
 /*=====   NAVBAR DE INÍCIO  =====*/
 
 .navbar {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--c-dark2);
   transition: var(--transition);
 }
 
 .navbar.scrolled {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   background-color: var(--c-dark2);
   box-shadow: var(--shadow);
 }
@@ -104,10 +105,6 @@ section {
 .navbar .logo a span {
   color: var(--c-brand);
   transition: all 0.3s ease;
-}
-
-.navbar.scrolled .logo a span {
-  color: var(--textColor);
 }
 
 @media (min-width: 992px) {
@@ -158,7 +155,7 @@ section {
 /*===========  MENU MOBILE  ===========*/
 
 .menu-btn {
-  color: var(--textColor);
+  color: var(--c-light);
   font-size: 36px;
   cursor: pointer;
   display: none;
