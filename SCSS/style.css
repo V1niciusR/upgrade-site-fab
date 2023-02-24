@@ -142,18 +142,46 @@ section {
 }
 
 /*===========  /MENU MOBILE  ===========*/
-/*=====  HOME DO INÍCIO  =====*/
+/*===== NOVA HOME DE INÍCIO =====*/
+#hero {
+  background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url();
+  background-position: center;
+  background-size: cover;
+}
+
+#hero span {
+  color: var(--c-brand);
+  transition: all 0.3s ease;
+}
+
+#hero a {
+  display: inline-flex;
+  background: var(--c-brand);
+  color: var(--c-light);
+  font-size: 15px;
+  padding: 6px 16px;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 2px solid var(--c-brand);
+  align-items: center;
+  margin-right: 6px;
+}
+
+/*===== /NOVA HOME DE INÍCIO =====*/
+/*=====  HOME DO INÍCIO  =====*
+
 .home {
   display: flex;
   /*
   background: url(../img/Icons/logo-fab.png) no-repeat;
   */
+/*
   background: var(--c-dark);
   background-size: cover;
   height: 100vh;
   color: var(--c-light);
   min-height: 500px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .home .max-width {
