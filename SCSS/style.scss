@@ -172,7 +172,10 @@ section {
 
 .home {
   display: flex;
+  /*
   background: url(../img/Icons/logo-fab.png) no-repeat;
+  */
+  background: var(--c-dark);
   background-size: cover;
   height: 100vh;
   color: var(--c-light);

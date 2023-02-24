@@ -148,7 +148,10 @@ section {
 /*=====  HOME DO INÍCIO  =====*/
 .home {
   display: flex;
+  /*
   background: url(../img/Icons/logo-fab.png) no-repeat;
+  */
+  background: var(--c-dark);
   background-size: cover;
   height: 100vh;
   color: var(--c-light);
@@ -609,10 +612,6 @@ form input, textarea {
   color: rgba(231, 230, 230, 0.4);
 }
 
-.form-control:-ms-input-placeholder {
-  color: rgba(231, 230, 230, 0.4);
-}
-
 .form-control::placeholder {
   color: rgba(231, 230, 230, 0.4);
 }
@@ -697,7 +696,7 @@ form input, textarea {
     margin-bottom: 20px;
   }
   .skills .skills-content .column,
-.contact .contact-content .column {
+  .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
   }
