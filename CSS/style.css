@@ -1,8 +1,11 @@
-@charset "UTF-8";
 /* Font */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+
 /*=====  GERAL  =====*/
-* {
+
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -15,8 +18,8 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
+body{
+  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 5.5rem;
@@ -31,11 +34,13 @@ body {
 }
 
 /*===========  /GERAL  ===========*/
+
+
+
 /*=====  VARIABLES COLORS  =====*/
 :root {
   --c-brand: #135F00;
   --c-brand2: #000000;
-  --primaryColor: #101820;
   --c-dark: #111;
   --c-dark2: #222;
   --c-dark3: #333;
@@ -43,12 +48,17 @@ body {
   --textColor: #F2FAFF;
   --c-light: #fff;
   --c-light2: #ccc;
+  
   --transition: all .4s cubic-bezier(.165, .84, .44, 1);
   --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
 }
 
 /*===========  /VARIABLES COLORS  ===========*/
+
+
+
 /*===== Sub title da sessão =====*/
+
 section {
   padding: 5rem 0;
 }
@@ -72,7 +82,11 @@ section {
 }
 
 /*===== Sub title da sessão =====*/
+
+
+
 /*=====   NAVBAR DE INÍCIO  =====*/
+
 .navbar {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -94,17 +108,18 @@ section {
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 16px;
-    padding-left: 16px;
+      padding-right: 16px;
+      padding-left: 16px;
   }
 }
+
 .navbar .navbar-nav .nav-link {
   font-weight: 700;
   color: var(--textColor);
 }
 
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
+.navbar .navbar-nav .nav-link.active  {
   color: var(--c-brand);
 }
 
@@ -114,7 +129,7 @@ section {
   color: var(--textColor);
 }
 
-.social-icon {
+.social-icon  {
   width: 36px;
   height: 36px;
   background-color: var(--c-brand);
@@ -133,7 +148,11 @@ section {
 }
 
 /*===========  /NAVBAR DE INÍCIO  ===========*/
+
+
+
 /*===========  MENU MOBILE  ===========*/
+
 .menu-btn {
   color: var(--c-light);
   font-size: 36px;
@@ -142,7 +161,11 @@ section {
 }
 
 /*===========  /MENU MOBILE  ===========*/
-/*===== NOVA HOME DE INÍCIO =====*/
+
+
+
+/*===== HOME DE INÍCIO =====*/
+
 #hero {
   background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url();
   background-position: center;
@@ -154,7 +177,7 @@ section {
   transition: all 0.3s ease;
 }
 
-#hero a {
+#hero a{
   display: inline-flex;
   background: var(--c-brand);
   color: var(--c-light);
@@ -167,67 +190,17 @@ section {
   margin-right: 6px;
 }
 
-/*===== /NOVA HOME DE INÍCIO =====*/
-/*=====  HOME DO INÍCIO  =====*
-
-.home {
-  display: flex;
-  /*
-  background: url(../img/Icons/logo-fab.png) no-repeat;
-  */
-/*
-  background: var(--c-dark);
-  background-size: cover;
-  height: 100vh;
-  color: var(--c-light);
-  min-height: 500px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.home .max-width {
-  margin: auto 0 auto 40px;
-}
-
-.home .home-content .text-1 {
-  font-size: 27px;
-}
-
-.home .home-content .text-2 {
-  font-size: 55px;
-  font-weight: 500;
-  margin-left: -3px;
-}
-
-.home .home-content .text-3 {
-  font-size: 30px;
-  margin: 5px 0;
-}
-
-.home .home-content .text-3 span {
-  color: var(--c-brand);
-  font-weight: 500;
-}
-
-.home .home-content a {
-  display: inline-flex;
-  background: var(--c-brand);
-  color: var(--c-light);
-  font-size: 15px;
-  padding: 6px 16px;
-  margin-top: 20px;
-  border-radius: 25px;
-  border: 2px solid var(--c-brand);
-  align-items: center;
-  margin-right: 6px;
-}
-
-.home .home-content a:hover {
+#hero a:hover {
   color: var(--c-brand);
   background: none;
 }
 
-/*===========  /HOME DO INÍCIO  ===========*/
+/*===== /HOME DE INÍCIO =====*/
+
+
+
 /*=====  BOTÃO DE VOLTAR AO TOPO  =====*/
+
 .scroll-up-btn {
   position: fixed;
   width: 41px;
@@ -254,13 +227,17 @@ section {
 }
 
 /*=========== /BOTÃO DE VOLTAR AO TOPO  ===========*/
+
+
+
 /*=====  AJUSTE TOTAL NO CÓDIGO  =====*/
+
 section {
   padding: 100px 0;
 }
 
 section .title {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 40px;
   font-weight: 500;
@@ -292,7 +269,7 @@ section .title::after {
 }
 
 .about, .services, .skills, .teams, .contact, footer {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .about .about-content,
@@ -306,7 +283,11 @@ section .title::after {
 }
 
 /*===========  /AJUSTE TOTAL NO CÓDIGO  ===========*/
+
+
+
 /*=====  SESSÃO SOBRE  =====*/
+
 .about .about-content .left {
   width: 45%;
 }
@@ -371,21 +352,27 @@ section .title::after {
 }
 
 /*===========  /SESSÃO SOBRE  ===========*/
+
+
+
 /*=====  SESSÃO CONHECIMENTOS  =====*/
-.services {
+
+.services/*, .teams*/ {
   background: var(--c-dark);
   color: var(--c-light);
+
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
   cursor: pointer;
-  transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
+  transition: all .40s;
+  -webkit-transition: all .40s;
+  -moz-transition: all .40s;
+  -ms-transition: all .40s;
+  -o-transition: all .40s;
+
 }
 
 .services .title::before,
@@ -410,12 +397,14 @@ section .title::after {
 
 .services .serv-content .card:hover {
   background: var(--c-brand);
+  
   transform: scale(1.12) rotate(-5deg);
   -webkit-transform: scale(1.12) rotate(-5deg);
   -moz-transform: scale(1.12) rotate(-5deg);
   -ms-transform: scale(1.12) rotate(-5deg);
   -o-transform: scale(1.12) rotate(-5deg);
   box-shadow: 0px 10px 25px 10px var(--c-light);
+  
 }
 
 .services .serv-content .card .box {
@@ -442,7 +431,11 @@ section .title::after {
 }
 
 /*===========  /SESSÃO CONHECIMENTOS  ===========*/
+
+
+
 /*=====  SESSÃO PROJETOS  =====*/
+
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
@@ -527,7 +520,11 @@ section .title::after {
 }
 
 /*===========  /SESSÃO PROJETOS  ===========*/
+
+
+
 /*===== SESSÃO EQUIPE =====*/
+
 .teams .title::after {
   content: "Especializada";
 }
@@ -540,7 +537,10 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
+
+
 /*============= Social Links =============*/
+
 .teams .links a {
   display: inline-block;
   color: var(--c-light);
@@ -559,6 +559,9 @@ section .title::after {
 }
 
 /*============= /Social Links =============*/
+
+
+
 .teams .carousel .card:hover {
   background: var(--c-brand);
 }
@@ -620,7 +623,11 @@ section .title::after {
 }
 
 /*=========== /SESSÃO EQUIPE ===========*/
+
+
+
 /*===== SESSÃO CONTATO =====*/
+
 .contact-bg {
   background-color: var(--c-brand);
   height: 70vh;
@@ -633,21 +640,22 @@ form input, textarea {
   border: 3px solid var(--gray) !important;
 }
 
-.form-control::-moz-placeholder {
-  color: rgba(231, 230, 230, 0.4);
-}
-
 .form-control::placeholder {
   color: rgba(231, 230, 230, 0.4);
 }
 
-@media screen and (max-width: 974px) {
-  .contact-bg {
-    height: 40vh;
+@media screen and (max-width:974px) {
+  .contact-bg{
+      height: 40vh;
   }
 }
+
 /*=========== /SESSÃO CONTATO ===========*/
+
+
+
 /*=====  RESPONSIVO  =====*/
+
 @media (max-width: 1300px) {
   .navbar .max-width {
     margin-left: 0;
@@ -721,7 +729,7 @@ form input, textarea {
     margin-bottom: 20px;
   }
   .skills .skills-content .column,
-  .contact .contact-content .column {
+.contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
   }
@@ -751,11 +759,16 @@ form input, textarea {
     font-size: 27px;
   }
 }
+
 /*===========  /RESPONSIVO  ===========*/
+
+
+
 /*===== SCROLLBAR =====*/
+
 ::-webkit-scrollbar {
   width: 8px;
-  border: 8px;
+  border:8px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -763,4 +776,4 @@ form input, textarea {
   border-radius: 15px;
 }
 
-/*=========== /SCROLLBAR ===========*//*# sourceMappingURL=style.css.map */
+/*=========== /SCROLLBAR ===========*/
