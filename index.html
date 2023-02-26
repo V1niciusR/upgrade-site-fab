@@ -17,6 +17,9 @@
     <!--Bootstrap Icon CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
+    <!--Animação da Página -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--Custom CSS-->
     <link rel="stylesheet" href="./CSS/style.css">
 
@@ -93,18 +96,21 @@
             <div class="row">
                 <div class="col-12">
                     <h1 data-aos="fade-left" class="text-uppercase text-white fw-semibold display-1">Bem-vindo a
-                        <span>Fábrica de Software</span></h1>
+                        <span>Fábrica de Software</span>
+                    </h1>
                     <h5 class="text-white mt-3 mb-4" data-aos="fade-right">Nós trabalhamos com <span
                             class="typing"></span></h5>
-                    <a href="">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                    <a href="">
-                        <ion-icon name="logo-github"></ion-icon>
-                    </a>
-                    <a href="">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
+                    <div data-aos="fade-right">
+                        <a href="">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a href="">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -115,12 +121,12 @@
     <!-- SESSÃO SOBRE -->
     <section class="about" id="sobre">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-down">
                 <h3 class="text-center fw-bold main-title">Sobre nós</h3>
                 <p class="text-center fw-bold ms-4 ps-3 sub-title">Especializada em projetos</p>
             </div>
             <div class="row">
-                <div class="about-content">
+                <div class="about-content" data-aos="fade-down">
                     <div class="column left">
                         <img src="./img/Icons/logo-menor.png" alt="">
                     </div>
@@ -133,7 +139,7 @@
                         <a href="#">Sugestões e idieias</a>
                     </div>
                 </div>
-                <div class="row mt-5 text-center exp">
+                <div class="row mt-5 text-center exp" data-aos="fade-up">
                     <div class="col-6 col-lg-3">
                         <div class="d-flex justify-content-center">
                             <h4 class="fw-boldu exp-number" data-val="6">0</h4>
@@ -169,71 +175,15 @@
 
 
 
-    <!--About Start-->
-    <section id="about">
-        <div class="container">
-            <div class="section-title">
-                <h3 class="text-center fw-bold main-title">About Me</h3>
-                <p class="text-center fw-bold ms-3 ps-5 sub-title">Who am I?</p>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-lg-5">
-                    <img src="./img/Icons/logo-menor.png" alt="About Me" class="img-fluid rounded-2">
-                </div>
-                <div class="col-md-12 col-lg-7 gx-5 mt-3">
-                    <p>Este site foi desenvolvido com o intúito de mostrar nossos trabalhos e para que fiquem por dentro
-                        do que estamos trabalhos e qual é a nossa equipe na linha de frente dos projetos feitos. Caso
-                        tenha alguma proposta ou ideia para nós desenvolvermos use esse botão logo abaixo, nele você
-                        será direcionado para entrar em contato conosco.</p>
-                    <a href="#">Sugestões e idieias</a>
-                </div>
-                <div class="row mt-5 text-center exp">
-                    <div class="col-6 col-lg-3">
-                        <div class="d-flex justify-content-center">
-                            <h4 class="fw-boldu exp-number" data-val="13">0</h4>
-                            <h5 class="mt-4 ps-1">+</h5>
-                        </div>
-                        <p>Experience</p>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="d-flex justify-content-center">
-                            <h4 class="fw-boldu exp-number" data-val="200">0</h4>
-                            <h5 class="mt-4 ps-1">+</h5>
-                        </div>
-                        <p>Project</p>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="d-flex justify-content-center">
-                            <h4 class="fw-boldu exp-number" data-val="157">0</h4>
-                            <h5 class="mt-4 ps-1">+</h5>
-                        </div>
-                        <p>Customer</p>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="d-flex justify-content-center">
-                            <h4 class="fw-boldu exp-number" data-val="4">0</h4>
-                            <h5 class="mt-4 ps-1">+</h5>
-                        </div>
-                        <p>Award</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!--About End-->
-
-
-
     <!--Skills Start-->
     <section class="services" id="conhecimentos">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-down">
                 <h3 class="text-center fw-bold main-title">Nossas habilidades</h3>
                 <p class="text-center fw-bold ms-1 ps-3 sub-title">Identifica alguma delas?</p>
             </div>
             <div class="row gap-3 justify-content-center">
-                <div class="serv-content">
+                <div class="serv-content" data-aos="fade-right">
                     <div class="card">
                         <div class="box">
                             <ion-icon name="logo-html5"></ion-icon>
@@ -256,7 +206,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="serv-content">
+                <div class="serv-content" data-aos="fade-left">
                     <div class="card">
                         <div class="box">
                             <ion-icon name="logo-react"></ion-icon>
@@ -352,12 +302,12 @@
 
     <section class="teams" id="equipe">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-down">
                 <h3 class="text-center fw-bold main-title">Nossa equipe</h3>
                 <p class="text-center fw-bold ms-4 ps-3 sub-title">Especializada em projetos</p>
             </div>
             <div class="row">
-                <div class="carousel owl-carousel ">
+                <div class="carousel owl-carousel">
                     <div class="card">
                         <div class="box">
                             <img src="./img/prof_claudio.png" alt="">
@@ -476,11 +426,11 @@
     <!--Contact Start-->
     <section id="contact">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-down">
                 <h3 class="text-center fw-bold main-title">Contato</h3>
                 <p class="text-center fw-bold ms-4 ps-3 sub-title">Entre em contato</p>
             </div>
-            <div class="row gx-5">
+            <div class="row gx-5" data-aos="fade-up">
                 <div class="col-lg-6 text-center">
                     <div class="contact-bg d-flex flex-column justify-content-center rounded-2">
                         <h5 class="py-3">Entre em contato conosco na caixa ao lado</h5>
@@ -546,17 +496,11 @@
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
 
-
-
     <!--JavaScript da página-->
-    <!--
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    -->
     <script src="./JS/Navbar.js"></script>
 
-
-
-
+    <!--JS da animação da Página-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- JS DA PÁGINA -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
