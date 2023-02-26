@@ -355,9 +355,9 @@ section .title::after {
 
 
 
-/*=====  SESSÃO CONHECIMENTOS  =====*/
+/*=====  SESSÃO CONHECIMENTOS  =====*
 
-.services/*, .teams*/ {
+.services, .teams {
   background: var(--c-dark);
   color: var(--c-light);
 
@@ -431,6 +431,49 @@ section .title::after {
 }
 
 /*===========  /SESSÃO CONHECIMENTOS  ===========*/
+
+
+
+/*===== Novo services =====*/
+/* Services */
+#services .card p {
+    margin-bottom: 0;
+}
+
+.card {
+    transition: all 0.4s ease;
+    border-radius: var(--border-radius-lg);
+    background-color: var(--color-bg2);
+}
+
+.card-padding {
+    padding: 3.2rem;
+}
+
+.card img {
+    border-top-right-radius: var(--border-radius-lg);
+    border-top-left-radius: var(--border-radius-lg);
+}
+
+.icon {
+    width: 6.4rem;
+    height: 6.4rem;
+    font-size: 3.2rem;
+    border-radius: var(--border-radius);
+    background-color: var(--color-brand);
+    color: var(--color-bg2);
+    text-align: center;
+    display: grid;
+    align-content: center;
+    margin-bottom: 1.8rem;
+}
+
+.card:hover {
+    box-shadow: 0 0 0 0.3rem var(--color-brand);
+    transform: translateY(-0.5rem);
+}
+
+/*===== /Novo services =====*/
 
 
 
