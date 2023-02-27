@@ -359,86 +359,7 @@ section .title::after {
 
 
 
-/*=====  SESSÃO CONHECIMENTOS  =====*
-
-.services, .teams {
-  background: var(--c-dark);
-  color: var(--c-light);
-
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  cursor: pointer;
-  transition: all .40s;
-  -webkit-transition: all .40s;
-  -moz-transition: all .40s;
-  -ms-transition: all .40s;
-  -o-transition: all .40s;
-
-}
-
-.services .title::before,
-.teams .title::before {
-  background: var(--c-light);
-}
-
-.services .title::after,
-.teams .title::after {
-  background: var(--c-dark);
-}
-
-.services .serv-content .card {
-  width: calc(33% - 10px);
-  background: var(--c-dark2);
-  text-align: center;
-  border-radius: 100px;
-  padding: 20px 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.services .serv-content .card:hover {
-  background: var(--c-brand);
-  
-  transform: scale(1.12) rotate(-5deg);
-  -webkit-transform: scale(1.12) rotate(-5deg);
-  -moz-transform: scale(1.12) rotate(-5deg);
-  -ms-transform: scale(1.12) rotate(-5deg);
-  -o-transform: scale(1.12) rotate(-5deg);
-  box-shadow: 0px 10px 25px 10px var(--c-light);
-  
-}
-
-.services .serv-content .card .box {
-  transition: all 0.3s ease;
-}
-
-.services .serv-content .card:hover .box {
-  transform: scale(1.05);
-}
-
-.services .serv-content .card ion-icon {
-  font-size: 65px;
-  color: var(--c-brand);
-}
-
-.services .serv-content .card:hover ion-icon {
-  color: var(--c-light);
-}
-
-.services .serv-content .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-
-/*===========  /SESSÃO CONHECIMENTOS  ===========*/
-
-
-
-/*===== Novo services =====*/
+/*=====  SESSÃO CONHECIMENTOS  =====*/
 
 .grid{
   display: grid;
@@ -499,7 +420,7 @@ section .title::after {
     transform: translateY(-0.5rem);
 }
 
-/*===== /Novo services =====*/
+/*=====  /SESSÃO CONHECIMENTOS  =====*/
 
 
 
