@@ -171,7 +171,7 @@ section {
 /*===== HOME DE INÍCIO =====*/
 
 #hero {
-  background: /*linear-gradient(hsla(var(--sidebar-hsl), 0.9), hsla(var(--sidebar-hsl), 0.9)),*/ url(../img/backgroud/img_3.jpg);
+  background: /*linear-gradient(hsla(var(--sidebar-hsl), 0.9), hsla(var(--sidebar-hsl), 0.9)),*/ url(../src/assets/img/background/img_3.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -767,3 +767,4 @@ form input, textarea {
 }
 
 /*=========== /SCROLLBAR ===========*/
+
