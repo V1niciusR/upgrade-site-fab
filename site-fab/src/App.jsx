@@ -267,18 +267,21 @@ function App() {
 
 
 
-    <section id="projects">
+      <section id="projects">
     <div class="container">
-      <h2 class="section-heading" data-outline="Projects">Projects</h2>
+      <div class="section-title" data-aos="fade-down">
+        <h3 class="text-center fw-bold main-title">Nossos projetos</h3>
+        <p class="text-center fw-bold ms-4 ps-3 sub-title">Especializada em projetos</p>
+      </div>
       <div class="all-items">
         <div class="item">
           <div class="left">
             <div class="img">
-              <img src="./image/project-1.jpg" alt=""></img>
+              <img src="#" alt=""></img>
             </div>
           </div>
-          <div class="right">
-            <h2 class="project-title">Real Chat</h2>
+          <div data-aos="fade-up" class="right">
+            <h2 class="project-title">Projeto 1</h2>
             <h3 class="project-sub-title">Online real time chat app.</h3>
             <p class="project-desc">I made this application for a USA customer. This application is truly Amazing. Here
               you can chat with your friend
@@ -293,18 +296,17 @@ function App() {
                 </svg>
               </a>
             </div>
-
           </div>
         </div>
+
         <div class="item">
           <div class="left">
             <div class="img">
-              <img src="./image/project-3.jpg" alt=""></img>
+              <img src="#" alt=""></img>
             </div>
           </div>
-          <div class="right">
-            <h2 class="project-title">Hotel Zaman Website
-            </h2>
+          <div data-aos="fade-up" class="right">
+            <h2 class="project-title">Projeto 2</h2>
             <h3 class="project-sub-title">A website for hotel zaman.
             </h3>
             <p class="project-desc">Hotel zaman is one of the famous hotel in Chittagong. We created their website. The
@@ -321,14 +323,15 @@ function App() {
             </div>
           </div>
         </div>
+
         <div class="item">
           <div class="left">
             <div class="img">
-              <img src="./image/project-2.jpg" alt=""></img>
+              <img src="#" alt=""></img>
             </div>
           </div>
-          <div class="right">
-            <h2 class="project-title">Prinazz Website</h2>
+          <div data-aos="fade-up" class="right">
+            <h2 class="project-title">Projeto 3</h2>
             <h3 class="project-sub-title">A website for music studio</h3>
             <p class="project-desc">Piranz is one of the famous music composer in UAE. The challenge was to keep the
               music environment in the web. It was
@@ -348,6 +351,7 @@ function App() {
       </div>
     </div>
   </section>
+
 
 
 
