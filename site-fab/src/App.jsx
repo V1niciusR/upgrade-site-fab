@@ -282,14 +282,14 @@ function App() {
           </div>
           <div data-aos="fade-up" class="right">
             <h2 class="project-title">Projeto 1</h2>
-            <h3 class="project-sub-title">Online real time chat app.</h3>
+            <h3 class="project-sub-title">Site apresentação da Fab.</h3>
             <p class="project-desc">I made this application for a USA customer. This application is truly Amazing. Here
               you can chat with your friend
               constantly inside a secure environment and there will be no information reserved after the end of the
               session.</p>
             <div class="buttons">
-              <a href="#" class="primary-btn">Know More</a>
-              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+              <a href="#" class="primary-btn">Saiba mais</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Veja</span>
                 <svg xmlns="#" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -307,14 +307,14 @@ function App() {
           </div>
           <div data-aos="fade-up" class="right">
             <h2 class="project-title">Projeto 2</h2>
-            <h3 class="project-sub-title">A website for hotel zaman.
+            <h3 class="project-sub-title">Nome a ser definido.
             </h3>
             <p class="project-desc">Hotel zaman is one of the famous hotel in Chittagong. We created their website. The
               client wanted a clean and smooth
               design which I was able to provide at the end of the project.</p>
             <div class="buttons">
-              <a href="#" class="primary-btn">Know More</a>
-              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+              <a href="#" class="primary-btn">Saiba mais</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Veja</span>
                 <svg xmlns="#" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -332,14 +332,14 @@ function App() {
           </div>
           <div data-aos="fade-up" class="right">
             <h2 class="project-title">Projeto 3</h2>
-            <h3 class="project-sub-title">A website for music studio</h3>
+            <h3 class="project-sub-title">Nome a ser definido</h3>
             <p class="project-desc">Piranz is one of the famous music composer in UAE. The challenge was to keep the
               music environment in the web. It was
               hard but in the end
               we provided a good quality website that satisfied the client.</p>
             <div class="buttons">
-              <a href="#" class="primary-btn">Know More</a>
-              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+              <a href="#" class="primary-btn">Saiba mais</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Veja</span>
                 <svg xmlns="#" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
