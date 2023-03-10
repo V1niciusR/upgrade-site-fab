@@ -149,7 +149,7 @@ function App() {
 
 
 
-      <section id="services" class="full-height">
+      <section id="conhecimentos" class="full-height">
         <div class="container">
           <div class="section-title" data-aos="fade-down">
             <h3 class="text-center fw-bold main-title">Nossas habilidades</h3>
