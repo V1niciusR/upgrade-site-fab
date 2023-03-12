@@ -14,6 +14,11 @@ function App() {
 
 
 
+      <div class="cursor-1"></div>
+      <div class="cursor-2"></div>
+
+
+
       <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
         <div class="container">
           <div class="logo"><a href="#">Fábrica de <span> Softwares</span></a></div>
@@ -516,6 +521,84 @@ function App() {
           </div>
         </div>
       </section>
+
+
+
+
+
+
+
+
+
+
+
+      <section id="contact">
+        <div class="container">
+          <div class="section-title" data-aos="fade-down">
+            <h3 class="text-center fw-bold main-title">Contato</h3>
+            <p class="text-center fw-bold ms-4 ps-3 sub-title">Entre em contato</p>
+          </div>
+          <h1 class="heading"> contact <span> me </span> </h1>
+
+          <div class="icons-container">
+
+            <div class="icons">
+              <i class="bi bi-envelope-fill me-3"></i>
+              <h3>my email</h3>
+              <p>shaikhanas@gmail.com</p>
+              <p>anasbhai@gmail.com</p>
+            </div>
+
+            <div class="icons">
+              <i class="bi bi-telephone-fill me-3"></i>
+              <h3>my number</h3>
+              <p>+123-456-7890</p>
+              <p>+111-222-3333</p>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>my address</h3>
+              <p>ajis class, jogeshwaris west, mumbai, india - 400104</p>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="Name" placeholder="Digite seu nome e sobrenome"></input>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Seu email pessoal ou de trabalho"></input>
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="subject" placeholder="Proposta"></input>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" placeholder="Fale mais sobre sua proposta"
+                  id="floatingTextarea" rows="8"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1625069635379!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
